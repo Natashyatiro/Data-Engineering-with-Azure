@@ -1,0 +1,12 @@
+{
+	"name": "ls_sql_nycpayroll2021",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=server-udacity-nycpayroll.database.windows.net;initial catalog=db_nycpayroll;user id=natashyatiro",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU2NzgyMzE3LUYzMzYtNDEyQy05QUEyLTk0RTE1MTU2OUE2MV84OTQ4MDg2MC02YTg4LTQ3OTItYmZiZi00Mzc4Njc4ZjQ1YjAiDQp9"
+		}
+	}
+}

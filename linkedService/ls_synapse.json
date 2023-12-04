@@ -1,0 +1,12 @@
+{
+	"name": "ls_synapse",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=synapse-nycpayroll.sql.azuresynapse.net;initial catalog=sql_dedicated_pool;user id=sqladminuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU2NzgyMzE3LUYzMzYtNDEyQy05QUEyLTk0RTE1MTU2OUE2MV82NDA1MjVjYS0wMjUwLTQyOWMtOWU4YS1mM2U0Mzk5MTUxNzYiDQp9"
+		}
+	}
+}

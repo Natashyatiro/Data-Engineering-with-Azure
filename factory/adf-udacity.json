@@ -1,0 +1,9 @@
+{
+	"name": "adf-udacity",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "66072e33-107e-4e6e-aa97-6f11134e5f04",
+		"tenantId": "15ce9348-be2a-462b-8fc0-e1765a9b204a"
+	}
+}
