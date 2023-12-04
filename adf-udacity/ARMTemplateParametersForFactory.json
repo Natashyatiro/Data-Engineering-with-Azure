@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-udacity"
+		},
+		"ls_adls2nycpayroll_accountKey": {
+			"value": ""
+		},
+		"ls_sql_nycpayroll2021_connectionString": {
+			"value": ""
+		},
+		"ls_synapse_connectionString": {
+			"value": ""
+		},
+		"ls_adls2nycpayroll_properties_typeProperties_url": {
+			"value": "https://adls2nycpayroll.dfs.core.windows.net/"
+		}
+	}
+}
